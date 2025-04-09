@@ -25,36 +25,36 @@
 body {
   font-family: var(--font-outfit);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
   color: var(--color-stone-600);
   background-color: var(--color-stone-100);
 }
 
 h1 {
   font-family: var(--font-young-serif);
-  font-weight: 600;
+  font-weight: 400;
   color: var(--color-stone-900);
 }
 
 h2 {
   font-family: var(--font-young-serif);
-  font-weight: 600;
+  font-weight: 400;
   color: var(--color-brown-800);
   margin-bottom: 16px;
 }
 h3 {
   font-family: var(--font-outfit);
-  font-weight: 700;
+  font-weight: 600;
   color: var(--color-rose-800);
 }
 
 li::marker {
   color: var(--color-brown-800);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .text-accent {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .border-bottom {
@@ -73,6 +73,7 @@ li::marker {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
   width: 100%;
   max-width: 736px;
   margin-top: 128px;
@@ -116,6 +117,12 @@ li::marker {
 .recipe-details-list {
   padding: 0 16px;
   margin-top: 8px;
+}
+
+.recipe-hightlights-list > li,
+.recipe-details-list > li {
+  padding: 0 16px;
+
 }
 
 .recipe-details-values {
